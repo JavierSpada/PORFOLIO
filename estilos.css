@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#texto_yoprogramo {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    position: relative;
+    left: 400px;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.redes {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 60px;
+    position: relative;
+    right: 300px;
+}
+
+#presentacion {
+    margin-top: 10px;
+    height: 300px;
+}
+
+#foto_principal{
+    float: left;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#foto_perfil{
+    float: left;
+    width: 180px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: -90px;
+}
