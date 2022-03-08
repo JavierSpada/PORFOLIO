@@ -23,7 +23,7 @@ body{
     right: 300px;
 }
 
-#presentacion {
+.presentacion {
     margin-top: 10px;
     height: 300px;
 }
@@ -37,9 +37,43 @@ body{
 }
 
 #foto_perfil{
-    float: left;
+  border-left: 30px;
     width: 180px;
     height: 200px;
     border-radius: 100px;
     margin-top: -90px;
+}
+
+#datos{
+    border-left: 10px;
+    margin-top: 10px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.acerca_de{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana;
+}
+
+#descripcion{
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.logos_minis{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -180px;
+}
+
+#desarrollo{
+    width: 250px;
+    height: 90px;
+}
+
+#transporte{
+    width: 250px;
+    height: 90px;
 }
