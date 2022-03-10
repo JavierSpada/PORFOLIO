@@ -3,6 +3,10 @@ body{
     padding: 0;
 }
 
+.titulos{
+    text-align: center;
+}
+
 #texto_yoprogramo {
     float: left;
     width: 20px;
@@ -42,16 +46,19 @@ body{
     height: 200px;
     border-radius: 100px;
     margin-top: -90px;
+    margin-left: 30px;
 }
 
 #datos{
-    border-left: 10px;
+    margin-left: 30px;
     margin-top: 10px;
     font-family: Verdana;
     font-size: 20px;
 }
 
 .acerca_de{
+    border: solid;
+    border-radius: 10px;
     text-align: center;
     margin-top: 50px;
     font-family: Verdana;
@@ -65,15 +72,78 @@ body{
 .logos_minis{
     text-align: right;
     margin-right: 20px;
-    margin-top: -180px;
+    margin-top: -170px;
 }
 
 #desarrollo{
     width: 250px;
-    height: 90px;
+    height: 80px;
 }
 
 #transporte{
     width: 250px;
-    height: 90px;
+    height: 80px;
+}
+
+#experiencia_laboral{
+    border: solid;
+    border-radius: 10px;
+    font-family: Verdana;
+    margin-top: 10px;  
+
+}
+
+#tareas{
+    text-align: right;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+#seg_vial{
+    width: 250px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    font-family: Verdana;
+    margin-top: 10px;     
+}
+.container p{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#educacion{
+    text-align: center;
+}
+
+#arg_pro{
+    width: 300px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+
+}
+#iaraa{
+    width: 120px;
+    height: 100px;
+    margin-left: 80px;
+    float: left;
+}
+#cedeba{
+    width: 120px;
+    height: 100px;
+    margin-left: 80px;
+    float: left;
+    
 }
