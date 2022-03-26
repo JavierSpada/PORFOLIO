@@ -5,6 +5,7 @@ body{
 
 .titulos{
     text-align: center;
+    
 }
 
 #texto_yoprogramo {
@@ -54,14 +55,6 @@ body{
     margin-top: 10px;
     font-family: Verdana;
     font-size: 20px;
-}
-
-.acerca_de{
-    border: solid;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 50px;
-    font-family: Verdana;
 }
 
 #descripcion{
@@ -127,23 +120,24 @@ body{
 }
 
 #arg_pro{
-    width: 300px;
-    height: 120px;
+    width: 280px;
+    height: 100px;
     margin-top: 10px;
     margin-left: 10px;
     float: left;
 
 }
 #iaraa{
-    width: 120px;
-    height: 100px;
+    width: 110px;
+    height: 90px;
     margin-left: 80px;
     float: left;
 }
 #cedeba{
-    width: 120px;
-    height: 100px;
+    width: 110px;
+    height: 90px;
     margin-left: 80px;
     float: left;
     
 }
+
