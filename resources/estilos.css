@@ -3,29 +3,58 @@ body{
     padding: 0;
 }
 
+#open_close{
+    margin-top: -45px;
+    cursor: pointer;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    margin-left: 120px;
+    
+    
+}
+
+#login{
+    width: 200px;
+    height: 140px;
+    background-color: black;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    margin-left: 120px;
+}
+
 .titulos{
     text-align: center;
     
 }
 
-#texto_yoprogramo {
-    float: left;
-    width: 20px;
-    height: 20px;
-    margin-top: 30px;
-    position: relative;
-    left: 400px;
-    font-family: Verdana;
-    font-size: 30px;
+#btn-secondary{
+     color: aliceblue;
 }
 
-.redes {
-    float: right;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 60px;
+ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px
+}
+
+#redes {
+    margin-top: 30px;
     position: relative;
-    right: 300px;
+}
+
+#texto_yoprogramo {
+    margin-top: 25px;
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    color: black;
+    font-family: Verdana;
+    font-size: 30px;
 }
 
 .presentacion {
@@ -46,13 +75,13 @@ body{
     width: 180px;
     height: 200px;
     border-radius: 100px;
-    margin-top: -90px;
+    margin-top: -140px;
     margin-left: 30px;
 }
 
 #datos{
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 60px;
     font-family: Verdana;
     font-size: 20px;
 }
@@ -60,20 +89,16 @@ body{
 #descripcion{
     font-family: Verdana;
     font-size: 20px;
+    text-align: center;   
 }
 
-.logos_minis{
-    text-align: right;
-    margin-right: 20px;
-    margin-top: -170px;
-}
-
-#desarrollo{
+#logo_desarrollo{
     width: 250px;
     height: 80px;
+    margin-right: 80px;
 }
 
-#transporte{
+#logos{
     width: 250px;
     height: 80px;
 }
@@ -83,7 +108,6 @@ body{
     border-radius: 10px;
     font-family: Verdana;
     margin-top: 10px;  
-
 }
 
 #tareas{
@@ -94,10 +118,10 @@ body{
 }
 
 #seg_vial{
-    width: 250px;
-    height: 80px;
-    margin-top: 50px;
-    margin-left: 30px;
+    width: 120px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .contenedor-info{
@@ -115,13 +139,11 @@ body{
     margin-top: 40px;
 }
 
-#educacion{
-    text-align: center;
-}
 
-#arg_pro{
-    width: 280px;
-    height: 100px;
+
+#arg_prog{
+    width: 180px;
+    height: 80px;
     margin-top: 10px;
     margin-left: 10px;
     float: left;
@@ -130,14 +152,59 @@ body{
 #iaraa{
     width: 110px;
     height: 90px;
-    margin-left: 80px;
+    margin-left: 20px;
     float: left;
 }
 #cedeba{
     width: 110px;
     height: 90px;
-    margin-left: 80px;
+    margin-left: 20px;
     float: left;
     
 }
+
+.container{
+    width: 100%;
+    background-color: rgba(140, 146, 146, 0.863);
+}
+
+.skills{
+    text-align: right;
+    padding: 10px;
+    color:black
+}
+
+.lider{
+    background-color: rgb(42, 148, 235);
+    animation: fillhabilidades 2s forwards;
+}
+
+.program{
+    background-color: rgb(42, 148, 235);
+    animation: fillprogram 2s forwards;
+}
+
+.idioma{
+    background-color: rgb(42, 148, 235);
+    animation: fillidioma 2s forwards;
+}
+
+
+@keyframes fillhabilidades{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+    
+
+@keyframes fillprogram{
+    0%{width: 0;}
+    100%{width: 55%;}
+}
+
+@keyframes fillidioma{
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
+
 

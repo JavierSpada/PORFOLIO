@@ -6,63 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resources/estilos.css">
     <link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
-    <title>Javier Spada</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <title>Javier Spada Porfolio</title>
     
 </head>
 
 <body>
- <div id="texto_yoprogramo">
-        <p>"#YoProgramo"</p> 
-      </div>
 
- <div>
-        <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank">
-          <img src="resources/IMAGENES PORF/ARGENTINA-PROGRAMA.jpg" alt=""></a>
-
-     <div class="redes">
-            <a href="https://www.instagram.com/javispada/?hl=es-la" target="_blank"> <i class="fa fa-align-right"></i>
-                <img src="resources/IMAGENES PORF/icono-instagram.jpeg" style="width: 50px; height: 50px;" alt=""><a>
-            <a href="https://www.facebook.com/javier.spada.14" target="_blank"> <i class="fa fa-align-right"></i>
-                <img src="resources/IMAGENES PORF/icons-facebook.png" style="width: 50px; height: 50px;" alt=""> </a>
-     </div>
- </div>
-
- <div class="presentacion">
-     <img id="foto_principal" src="resources/IMAGENES PORF/banner1.jpg">
-     <img id="foto_perfil" src="resources/IMAGENES PORF/foto-perfil.jpg">
-     <p id="datos">Javier Spada <br>
-            Full Stack Developer Jr. <br>
-            Buenos Aires - Argentina
-        </p>
+    <div class="container">
+        <div class="row">
+            <div class="col"><a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank">
+                <img id="arg_prog" src="resources/IMAGENES PORF/arg-prog.jpeg" class="img-fluid" alt=""></a>
+            </div>
+              <div class="col"><a id="texto_yoprogramo" class="nav-link active" aria-current="page" href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa" target="_blank">
+                        #YoProgramo</a>
+                </div>
+                  <div id="redes" class="col"><a href="https://www.facebook.com/javier.spada.14" target="_blank"> 
+                      <img src="resources/IMAGENES PORF/icons-facebook.png" class="img-thumbnail" style="width: 50px; height: 50px;" alt=""></a>
+                      <a href="https://www.instagram.com/javispada/?hl=es-la" target="_blank"> 
+                        <img src="resources/IMAGENES PORF/icono-instagram.jpeg" class="img-thumbnail" style="width: 50px; height: 50px;" alt=""></a>
+                        <div id="open_close">LOGIN</div>
+                        <form id="login" action="" >
+                            <label for="">Nombre:</label>
+                            <input type="text" id="nombre" placeholder="Nombre">
+                            <label for="">Contraseña:</label>
+                            <input type="password" id="pass" placeholder="Contraseña">
+                            <input type="submit" value="Enviar" id="enviar">
+                        </form>
+                  </div>
+                </div>
+    </div>
+   
+    <div class="presentacion">
+      <img id="foto_principal" src="resources/IMAGENES PORF/banner1.jpg" class="img-fluid">
+      <img id="foto_perfil" src="resources/IMAGENES PORF/foto-perfil.jpg" class="img-fluid">
     </div>
 
-  <div class="contenedor-info">
-      <h1 class="titulos">Acerca de</h1>
-      <p id="descripcion">Agente de control y Fizcalización Vial,<br>
-         Periodista, Tecnico en Refrigeración y <br>
-        Piloto de Drone</p>
-  </div>  
+    <div class="d-flex justify-content-between bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+                <p id="datos">Javier Spada <br>
+                    Full Stack Developer Jr. <br>
+                    Buenos Aires - Argentina
+                </p>
+            </div>
 
-  <div class="logos_minis">
-      <img id="desarrollo" src="resources/IMAGENES PORF/logo-minis-des.png" alt=""> <br>
-      <img id="transporte" src="resources/IMAGENES PORF/logo_ministerio_transporte.png" alt="">
-  </div>
+            <div class="p-2 bd-highlight">
+              <h1 class="titulos">Acerca de</h1>
+              <p id="descripcion">Agente de control y Fizcalización Vial,<br>
+                                Periodista, Tecnico en Refrigeración <br> 
+                                Piloto de Drone</p>
+            </div>
+                <div class="p-2 bd-highlight">
+                        <img id="logo_desarrollo" src="resources/IMAGENES PORF/logo-minis-des.png" class="img-fluid" alt=""> <br>
+                        <img id="logos" src="resources/IMAGENES PORF/logo_ministerio_transporte.png" class="img-fluid" alt="">
+                    <button type="button" class="btn btn-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                            <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                        </svg>
+                    </button>
+                        <button type="button" class="btn btn-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
+                                <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z"/>
+                             </svg>
+                        </button>
+                </div>
+    </div>
 
-  <div class="contenedor-info">
-      <h1 class="titulos">Experiencia Laboral</h1>
-      <img id="seg_vial" src="resources/IMAGENES PORF/sv_logo.png" alt="">
-      <p id="tareas"> Agente de Control y Fiscalizacion <br>
-          2013 - actualidad <br>
-          Operativos de Alcoholemia, control de documentación, controles preventivos. <br>
-          Asistencia en siniestros viales. <br>
-          Tareas en area tecnológica: Manejo y mantenimiento de radares, alcoholimetros,etc. <br>
-          Manejo de Drone. </p>
-          <button type="button" class="btn btn-secondary">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-<path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
-</svg>
-          </button>
-</div>
+    <div class="list-group">
+        <h1 class="titulos">Experiencia Laboral</h1>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex justify-content-center">
+                <div class="p-6"><h2>Agente de Control y Fiscalización .</h2></div>
+            </div>
+            <div class="d-flex flex-row">
+                    <div class="p-2"><img id="seg_vial" src="resources/IMAGENES PORF/sv_logo.png"></div>
+                
+                    <div class="p-8 align-self-center"><b>(2013 - actualidad)</b>
+                        Operativos de Alcoholemia, control de documentación, controles preventivos. 
+                        Asistencia en siniestros viales.Tareas en area tecnológica: Manejo y mantenimiento de radares, alcoholimetros,etc. 
+                        Manejo de Drone.
+                    </div>
+                    <div class="p-2 align-self-center"> 
+                        <button type="button" class="btn btn-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                            </svg>
+                        </button>
+                            <button type="button" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
+                                    <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z"/>
+                                </svg>
+                            </button>
+                    </div>
+            </div>
+        </a>
+    </div>
 
 <div class="list-group">
     <h1 class="titulos">Educación</h1>
@@ -71,11 +110,11 @@
             <div class="p-6"><h2>Programador Web Full Stack Jr.</h2></div>
         </div>
         <div class="d-flex flex-row">
-            <div class="p-2"><img id="arg_pro" src="resources/IMAGENES PORF/ARGENTINA-PROGRAMA.jpg"></div>
-            <div class="p-2 align-self-center">(Agosto 2021 - Actualidad)</small>
-                Capacitacion virtual y gratuita en programacion y desarrollo web.
+            <div class="p-2"><img id="arg_pro" src="resources/IMAGENES PORF/arg-prog.jpeg"></div>
+            <div class="p-8 align-self-center"><b>(Agosto 2021 - Actualidad)</b>
+                Capacitación virtual y gratuita en programación y desarrollo web.
                 Distribuida en 2 etapas: #SeProgramar #YoProgramo.
-                Dependientes del Ministerio de Desarrollo Productivo de la Nacion,
+                Dependientes del Ministerio de Desarrollo Productivo de la Nación,
                 con certificaciones de la Camara Argentina de la Industria del Software (CESSI)    
                 y el Instituto Nacional de Tecnologia Nacional (INTI)</div>
             <div class="p-2 align-self-center"> 
@@ -85,25 +124,24 @@
                     </svg>
                 </button>
                 <button type="button" class="btn btn-secondary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                    <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
+                        <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z"/>
+                      </svg>
                 </button>
             </div>
         </div>
     </a>
+
     <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex justify-content-center">
-            <div class="p-6"><b>Programador Web Full Stack Jr.</b></div>
+            <div class="p-6"><h2>Instituto Argentino de Refrigeración y Aire Acondicionado.</h2></div>
         </div>
         <div class="d-flex flex-row">
-            <div class="p-2"><img id="arg_pro" src="resources/IMAGENES PORF/ARGENTINA-PROGRAMA.jpg"></div>
-            <div class="p-2 align-self-center">(Agosto 2021 - Actualidad)</small>
-                Capacitacion virtual y gratuita en programacion y desarrollo web.
-                Distribuida en 2 etapas: #SeProgramar #YoProgramo.
-                Dependientes del Ministerio de Desarrollo Productivo de la Nacion,
-                con certificaciones de la Camara Argentina de la Industria del Software (CESSI)    
-                y el Instituto Nacional de Tecnologia Nacional (INTI)</div>
+            <div class="p-2"><img id="iaraa" src="resources/IMAGENES PORF/logo-IARAA.png"></div>
+            <div class="p-2 align-self-center"><b>(2015 - 2016)</b>
+                Tecnico Matriculado en Refrigeración e Instalación de AA Split.
+                Certificación Camara Argentina de Calefación, Aire Acondicionado y Ventilación (CACAAV)
+                Universidad Tecnologica Nacional Facultad Regional Buenos Aires (UTN.BA) </div>
             <div class="p-2 align-self-center"> 
                 <button type="button" class="btn btn-secondary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
@@ -111,66 +149,83 @@
                     </svg>
                 </button>
                 <button type="button" class="btn btn-secondary">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                    <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
+                        <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z"/>
+                      </svg>
                 </button>
             </div>
         </div>
     </a>
   </div>
 
-  <div class="contenedor-info">
-      <h1 class="titulos">Educación</h1>
-        <img id="arg_pro" src="resources/IMAGENES PORF/ARGENTINA-PROGRAMA.jpg"><p> <b> Programador Web Full Stack Jr.</b> <br>
-            (Agosto 2021 - Actualidad) <br>
-            Capacitacion virtual y gratuita en programacion y desarrollo web. <br>
-            Distribuida en 2 etapas: #SeProgramar #YoProgramo. <br>
-            Dependientes del Ministerio de Desarrollo Productivo de la Nacion, <br>
-            con certificaciones de la Camara Argentina de la Industria del Software (CESSI) <br>
-            y el Instituto Nacional de Tecnologia Nacional (INTI).<br>
-            <br>
-            <br>
-        <img id="iaraa" src="resources/IMAGENES PORF/logo-IARAA.png"> <b>Instituto Argentino de Refrigeracion y Aire Acondicionado </b> <br>
-        (2015 - 2016) <br>
-        Tecnico Matriculado en Refrigeracion e Instalacion de AA Split <br>
-        Certificacion Camara Argentina de Calefacion, Aire Acondicionado y <br>
-        Ventilacion (CACAAV) <br> 
-        Universidad Tecnologica Nacional Facultad Regional Buenos Aires (UTN.BA) 
-        <br>
-        <br>
-        <br>
-        <img id="cedeba" src="resources/IMAGENES PORF/CEDEBA.jpg"> <br>
-         <b> Centro de Estudios Buenos Aires </b><br>
-            (2004 - 2005) <br>
-            Titulo Terciario en Periodismo y Periodismo Deportivo
-        </p>             
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex justify-content-center">
+        <div class="p-6"><h2>Centro de Estudios Buenos Aires.</h2></div>
     </div>
+    <div class="d-flex flex-row">
+        <div class="p-2"><img id="cedeba" src="resources/IMAGENES PORF/CEDEBA.jpg"></div>
+        <div class="p-2 align-self-center"><b>(2004 - 2005)</b>
+            Titulo Nivel Terciario en Periodismo y Periodismo Deportivo.Programación de Radio y Televisión</div>
+        <div class="p-2 align-self-center"> 
+            <button type="button" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                </svg>
+            </button>
+            <button type="button" class="btn btn-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
+                    <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z"/>
+                  </svg>
+            </button>
+        </div>
+    </div>
+</a>
+</div>
 
-    <div class="contenedor-info">
+  
+
+    <div class="p-2 bd-highlight">
         <h1 class="titulos">Habilidades</h1>
-        <br>
-        <br>
-        <b>Experiencia en Liderazgo y manejo de grupo <br>
+        <div class="p-2 bd-highlight"><p><b>Experiencia en Liderazgo y manejo de grupo <br>
             Armado de equipos de trabajo <br>
-            Capacidad de colaboracion <br> 
-            Proactivo</b>
-            <br>
-            <br>
-            <b>Programacion Web <br>
-               Front End (HTML, CSS ,Bootstrap) <br>
-               Back End (MySQL, PHP, Node.js) <br>
-               Expresion Oral y Escrita</b>
-            <br>
-            <br>
-            <b>INGLES <br> 
-               Conocimiento en Escritura y <br>
-               Lectura</b>
+            Capacidad de colaboración <br> 
+            Proactivo</b></p></div> 
+          <div class="container">
+              <div class="skills lider">70%</div>
+          </div>
+        </div>
+    
+        <div class="p-2 bd-highlight"><p><b>Programación Web <br>
+            Front End (HTML, CSS ,Bootstrap) <br>
+            Back End (MySQL, PHP, Node.js) <br>
+            Expresión Oral y Escrita</b></p></div>
+            <div class="container">
+                <div class="skills program">55%</div>
+            </div>
+
+        <div class="p-2 bd-highlight"><p><b>INGLES <br> 
+            Conocimiento en Escritura y <br>
+            Lectura</b></p></div>
+            <div class="container">
+                <div class="skills idioma">50%</div>
+            </div>
+        </div>
     </div>
 
     <div class="contenedor-info">
         <h1 class="titulos">Proyectos</h1>
     </div>
+
+        <div class="form-group">
+          <label for="exampleInputUsuario1">Usuario </label>
+          <input type="text" class="form-control" id="exampleInputUsuario1" placeholder="Usuario">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
       
 </body>
 </html>
