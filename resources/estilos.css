@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#open_close{
+    margin-top: -45px;
+    cursor: pointer;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    margin-left: 120px;
+    
+    
+}
+
+#login{
+    width: 200px;
+    height: 140px;
+    background-color: black;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    margin-left: 120px;
+}
+
+.titulos{
+    text-align: center;
+    
+}
+
+#btn-secondary{
+     color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px
+}
+
+#redes {
+    margin-top: 30px;
+    position: relative;
+}
+
+#texto_yoprogramo {
+    margin-top: 25px;
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    color: black;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.presentacion {
+    margin-top: 10px;
+    height: 300px;
+}
+
+#foto_principal{
+    float: left;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#foto_perfil{
+  border-left: 30px;
+    width: 180px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: -140px;
+    margin-left: 30px;
+}
+
+#datos{
+    margin-left: 30px;
+    margin-top: 60px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+#descripcion{
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;   
+}
+
+#logo_desarrollo{
+    width: 250px;
+    height: 80px;
+    margin-right: 80px;
+}
+
+#logos{
+    width: 250px;
+    height: 80px;
+}
+
+#experiencia_laboral{
+    border: solid;
+    border-radius: 10px;
+    font-family: Verdana;
+    margin-top: 10px;  
+}
+
+#tareas{
+    text-align: right;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+#seg_vial{
+    width: 120px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.contenedor-info{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    text-decoration: none;
+    border: solid;
+    border-radius: 10px;
+    font-family: Verdana;
+    margin-top: 10px;     
+}
+.contenedor-info p{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+#arg_prog{
+    width: 180px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+
+}
+#iaraa{
+    width: 110px;
+    height: 90px;
+    margin-left: 20px;
+    float: left;
+}
+#cedeba{
+    width: 110px;
+    height: 90px;
+    margin-left: 20px;
+    float: left;
+    
+}
+
+.container{
+    width: 50%;
+    background-color: rgba(140, 146, 146, 0.863);
+}
+
+.skills{
+    text-align: right;
+    padding: 10px;
+    color:black;
+    
+}
+
+.lider{
+    background-color: rgb(42, 148, 235);
+    animation: fillhabilidades 2s forwards;
+}
+
+.program{
+    background-color: rgb(42, 148, 235);
+    animation: fillprogram 2s forwards;
+}
+
+.idioma{
+    background-color: rgb(42, 148, 235);
+    animation: fillidioma 2s forwards;
+}
+
+
+@keyframes fillhabilidades{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+    
+
+@keyframes fillprogram{
+    0%{width: 0;}
+    100%{width: 55%;}
+}
+
+@keyframes fillidioma{
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
+#porfolio{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+    float: left;
+}
+
+.contenedor_proyectos{
+       width: 100%;
+       overflow: hidden;
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+     width: 100%;
+     height: 500px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-shrink: 0;
+}
+
+.contenido-slider > img{
+    width: 600px;
+}
+
+.contenido-slider > div{
+    width: 40%;
+}
+
+.contenido-slider > h2{
+    font-family: Verdana;
+    font-weight: 100px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contenido-slider a{
+    color: white;
+    background-color: black;
+    width: 100px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+
