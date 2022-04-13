@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.presentacion {
+    margin-top: 10px;
+    height: 300px;
+}
+
+#redes {
+    margin-top: 30px;
+    position: relative;
+}

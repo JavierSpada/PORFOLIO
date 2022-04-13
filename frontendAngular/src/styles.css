@@ -42,11 +42,6 @@ ul {
     margin-bottom: 10px
 }
 
-#redes {
-    margin-top: 30px;
-    position: relative;
-}
-
 #texto_yoprogramo {
     margin-top: 25px;
     width: 40px;
@@ -55,6 +50,11 @@ ul {
     color: black;
     font-family: Verdana;
     font-size: 30px;
+}
+
+.presentacion {
+    margin-top: 10px;
+    height: 300px;
 }
 
 #foto_principal{
