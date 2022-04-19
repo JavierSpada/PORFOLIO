@@ -3,8 +3,7 @@ body{
     padding: 0;
 }
 
-#open_close{
-    margin-top: -45px;
+.btn{
     cursor: pointer;
     width: 200px;
     background-color: black;

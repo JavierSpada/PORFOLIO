@@ -1,0 +1,31 @@
+.skills{
+    text-align: right;
+    padding: 10px;
+    color:black;   
+}
+
+.lider{
+    background-color: rgb(42, 148, 235);
+    animation: fillhabilidades 2s forwards;
+}
+
+.program{
+    background-color: rgb(42, 148, 235);
+    animation: fillprogram 2s forwards;
+}
+
+@keyframes fillhabilidades{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+    
+
+@keyframes fillprogram{
+    0%{width: 0;}
+    100%{width: 55%;}
+}
+
+@keyframes fillidioma{
+    0%{width: 0;}
+    100%{width: 50%;}
+}

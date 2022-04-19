@@ -3,6 +3,17 @@ body{
     padding: 0;
 }
 
+.mat-card{
+    border-radius: 40px;
+    margin: 10px 10px;
+    padding: 40px;
+    border-color: rgb(51, 4, 195);
+}
+
+#first-card{
+    padding: 0px;
+}
+
 #open_close{
     margin-top: -45px;
     cursor: pointer;
@@ -32,8 +43,23 @@ body{
     
 }
 
+.btn-edit{
+    margin-left: 200px;
+}
+
+#btn-acerca{
+    margin-left: 560px;
+    margin-top: -225px;
+}
+
+.card-titles{
+    margin-top: 10px;
+
+}
+
 #btn-secondary{
      color: aliceblue;
+     
 }
 
 ul {
@@ -61,8 +87,8 @@ ul {
     float: left;
     width: 100%;
     height: 300px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 #foto_perfil{
@@ -87,6 +113,23 @@ ul {
     text-align: center;   
 }
 
+#descripcion-experiencia{
+    font-family: Verdana;
+    font-size: 20px;
+    text-align:center;
+    margin-top: -50px;
+}
+
+#btn-exper{
+    margin-left: 730px;
+    margin-top: -260px;
+}
+
+#btn-exper2{
+    margin-left: 780px;
+    margin-top: -308px;
+}
+
 #logo_desarrollo{
     width: 250px;
     height: 80px;
@@ -96,6 +139,7 @@ ul {
 #logos{
     width: 250px;
     height: 80px;
+    text-align: right;
 }
 
 #experiencia_laboral{

@@ -1,1 +1,9 @@
-<p>seccion works!</p>
+
+<ul class="list-group"><br>
+    <h1 class="titulos">{{titulo}}</h1>
+
+    <app-item *ngFor="let item of items" titulo={{item.titulo}} fecha={{item.fecha}} 
+        descripcion={{item.descripcion}} 
+        urlImagen={{item.urlImagen}}></app-item>
+    
+</ul>
