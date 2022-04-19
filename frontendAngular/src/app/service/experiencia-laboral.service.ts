@@ -8,7 +8,7 @@ import { ITEMS_EDUCACION, ITEMS_LABORAL } from '../components/mock-item-elements
   providedIn: 'root'
 })
 export class ExperienciaLaboralService {
-  private apiURL = "http://localhost:4200/laborales"
+  private apiURL = "http://localhost:5001/laborales"
 
   constructor(
     private http: HttpClient
