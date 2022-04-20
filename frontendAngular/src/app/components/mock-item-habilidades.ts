@@ -7,9 +7,14 @@ export const ITEMS_HABILIDADES : ItemHabilidad []= [
     estilo: "lider"
    },
    {
-    descripcion: "Experiencia en Liderazgo y manejo de grupo Armado de equipos de trabajo Capacidad de colaboración Proactivo",
-    porcentaje: "30%",
+    descripcion: "Programación Web, Front End (HTML, CSS ,Bootstrap).Back End (MySQL, PHP, Node.js)",
+    porcentaje: "55%",
     estilo: "program"
+   },
+   {
+    descripcion: "INGLES.Conocimiento en Escritura y Lectura",
+    porcentaje: "50%",
+    estilo: "idioma"
    }
    ];
 

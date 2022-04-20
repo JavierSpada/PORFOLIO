@@ -24,7 +24,7 @@ export class ItemComponent implements OnInit {
   }
 
   editar() {
-    console.log(" dfasdfasdfasdf");
+
   }
 
   eliminar(item : ItemElement) {

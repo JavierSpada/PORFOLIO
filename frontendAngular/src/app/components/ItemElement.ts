@@ -3,5 +3,5 @@ export interface ItemElement {
     titulo: string;
     fecha: string;
     descripcion: string;
-    urlImagen: string;
+    urlImagen: string; 
   }
