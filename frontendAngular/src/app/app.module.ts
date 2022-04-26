@@ -8,6 +8,7 @@ import { ItemComponent } from './components/item/item.component';
 import { SeccionComponent } from './components/seccion/seccion.component';
 import { ButtonComponent } from './components/button/button.component';
 import { HabilidadComponent } from './components/habilidad/habilidad.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HabilidadComponent } from './components/habilidad/habilidad.component';
     ItemComponent,
     SeccionComponent,
     ButtonComponent,
-    HabilidadComponent
+    HabilidadComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

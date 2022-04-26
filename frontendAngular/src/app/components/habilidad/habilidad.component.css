@@ -1,3 +1,8 @@
+.container{
+    width: 50%;
+    background-color: rgba(140, 146, 146, 0.863);
+}
+
 .skills{
     text-align: right;
     padding: 10px;
@@ -14,6 +19,12 @@
     animation: fillprogram 2s forwards;
 }
 
+.idioma{
+    background-color: rgb(42, 148, 235);
+    animation: fillidioma 2s forwards;
+}
+
+
 @keyframes fillhabilidades{
     0%{width: 0;}
     100%{width: 70%;}
@@ -27,5 +38,5 @@
 
 @keyframes fillidioma{
     0%{width: 0;}
-    100%{width: 50%;}
+    100%{width: 40%;}
 }

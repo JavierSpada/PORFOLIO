@@ -13,7 +13,7 @@ export const ITEMS_HABILIDADES : ItemHabilidad []= [
    },
    {
     descripcion: "INGLES.Conocimiento en Escritura y Lectura",
-    porcentaje: "50%",
+    porcentaje: "40%",
     estilo: "idioma"
    }
    ];
