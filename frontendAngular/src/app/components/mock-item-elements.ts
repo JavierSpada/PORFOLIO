@@ -19,7 +19,7 @@ export const ITEMS_EDUCACION : ItemElement []= [
      id: 3,
      titulo: "Centro de Estudios Buenos Aires.",
      fecha: "(2004 - 2005)",
-     descripcion: "Titulo Nivel Terciario en Periodismo y Periodismo Deportivo.Programación de Radio y Televisión",
+     descripcion: "Titulo Nivel Terciario en Periodismo y Periodismo Deportivo. Programación de Radio y Televisión",
      urlImagen:"assets/img_porfolio/cedeba.jpg"
     } ];
 
