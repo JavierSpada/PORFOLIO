@@ -14,7 +14,7 @@ export class SeccionComponent implements OnInit {
 
   constructor(private experienciaLaboralService: ExperienciaLaboralService) { }
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
     this.experienciaLaboralService.getExperiencias().subscribe((experencias) => {
       this.items = experencias;
       console.log(this.items);
