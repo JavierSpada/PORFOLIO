@@ -8,13 +8,13 @@ import { ITEMS_EDUCACION, ITEMS_LABORAL } from '../components/mock-item-elements
   providedIn: 'root'
 })
 export class ExperienciaLaboralService {
-  private apiURL = "http://localhost:5001/laborales"
+  private apiURL = "http://localhost:8080/experienciaLaboral"
 
   constructor(
     private http: HttpClient
   ) { }
 
-  getExperiencia(): Observable<ItemElement[]> {
+  getExperiencias(): Observable<ItemElement[]> {
     return this.http.get<ItemElement[]>(this.apiURL);
   }
 
