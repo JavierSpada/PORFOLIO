@@ -9,6 +9,9 @@ import { SeccionComponent } from './components/seccion/seccion.component';
 import { ButtonComponent } from './components/button/button.component';
 import { HabilidadComponent } from './components/habilidad/habilidad.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { LoginComponent } from './components/login/login.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +21,13 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     SeccionComponent,
     ButtonComponent,
     HabilidadComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

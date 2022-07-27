@@ -2,22 +2,23 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ItemElement } from '../components/ItemElement';
+import { Persona } from '../model/Persona';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PersonaService {
-  private apiURL = "http://localhost:8080/persona"
+  private apiURL = "http://localhost:8080/personas"
 
   constructor(
     private http: HttpClient 
   ) { }
 
-  getPersona(): Observable<ItemElement[]> {
-    return this.http.get<ItemElement[]>(this.apiURL);
+  getPersona(): Observable<Persona> {
+    return this.http.get<Persona>(this.apiURL+ "/1");
   }
 
-  update(item: ItemElement): Observable<ItemElement> {
-    return this.http.put<ItemElement>(this.apiURL+ "/" + item.id, item);
+  update(item: Persona): Observable<Persona> {
+    return this.http.put<Persona>(this.apiURL+ "/" + item.id, item);
   }
 }
